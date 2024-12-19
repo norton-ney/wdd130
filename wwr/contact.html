@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Norton Ney BYU-I | WDD 130">
+    <meta name="description" content="Description how to contact us" >
+    <link rel="stylesheet" href="styles/rafting.css">
+    
+    
+    <title> Contact | Whitewater Rafting Club</title>
+
+</head>
+<body>
+    <header>
+        <img src="images/raftinglogo.png" alt="logo-image" />
+        <div class="text">
+
+        
+        
+            <nav> 
+            <ul class=" navigation">
+                <li><a href="https://norton-ney.github.io/wdd130/wwr/index.html">Home</a></li>
+                <li><a href ="https://norton-ney.github.io/wdd130/wwr/about.html">About Us</a></li>
+                <li><a href="https://norton-ney.github.io/wdd130/wwr/trips.html">Trips</a></li>
+                <li><a href="https:/norton-ney.github.io/wdd130/wwr/contact.html">Contact Us</a></li>
+            </ul>
+            </nav>
+            </div>
+    </header>
+        <div class="text"> 
+        
+            <h1> Whitewater Rafting Club</h1>
+           
+    </div>
+
+    <div class="background">
+
+        <img src="images/backgroundrafting.png" width="1500" height="1400" alt="background">
+
+    </div>
+    <main>
+        <section id="company-info">
+            <h2> Contact Information</h2>
+            <p>
+                Adress: 2151 San Miguel Dr, Walnut Creek, CA 94596, Estados Unidos <br>
+                Phone Number: +925-999-7565, +925-654-3220 <br>
+                Email: contactwwrclub@gmail.com <br>
+            </p>
+
+            <div class="embedded-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.8286594445735!2d-122.04475142464457!3d37.88768950564851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808561a2a8ff7a49%3A0x7fc442c1854c45dc!2sAll-Outdoors%20California%20Whitewater%20Rafting!5e0!3m2!1spt-BR!2sbr!4v1729402529724!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+                </iframe>"
+            </div>
+            
+
+            <div class="employees">
+                <h2> Our Employees Team</h2>
+            </div>
+            <div class="employee">
+                <img src="images/rafting-Instructor.jpg" alt="employee1">
+                <p>Derek | Rafting Instructor</p>
+            </div>
+            <div class="employee">
+                <img src="images/rafting-safety.jpg" alt="employee2">
+                <p>Russell | Safety Officer</p>
+            </div>
+        <div class="employee">
+            <img src="images/rafting-guide.jpg" alt="employee3">
+            <p>Stella | Rafting Guide</p>
+        </div>
+
+        </section>
+
+        <section>
+
+            <section id="contact-form">
+                <h2>Contact Us</h2>
+                <form action="submit_contact.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <fieldset>
+                        <legend>Purpose of Message:</legend>
+                        <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                        <label for="general">General Inquiry</label><br>
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label><br>
+                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </fieldset>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <input type="checkbox" id="newsletter" name="newsletter" value="subscribe">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+    
+                    <button type="submit">Submit</button>
+                </form>
+        </section>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024, Whitewater Rafting Club, Norton Ney. Todos os direitos reservados.</p>
+        <nav class="sociallinks">
+            
+        <a href="https://www.facebook.com/">
+            <img src="images/simbolofb.svg" alt="fbicon" width="25">
+        </a>
+        <a href="https://www.instagram.com">
+            <img src="images/simboloinsta.svg" alt="instaicon" width="25">
+        </a>
+        <a href="https://www.x.com">
+            <img src="images/simbolox.svg" alt="xicon" width="25">
+    </a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
